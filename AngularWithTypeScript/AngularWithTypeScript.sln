@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9866F95-15D3-4A3B-81BD-6EA26E74DA73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17AD0532-1670-4663-8D1B-63DE54A0C8A4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AngularWithTypeScript", "src\AngularWithTypeScript\AngularWithTypeScript.xproj", "{5A547462-AD23-40DF-91D9-2B20C7C4DCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A547462-AD23-40DF-91D9-2B20C7C4DCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A547462-AD23-40DF-91D9-2B20C7C4DCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A547462-AD23-40DF-91D9-2B20C7C4DCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A547462-AD23-40DF-91D9-2B20C7C4DCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A547462-AD23-40DF-91D9-2B20C7C4DCB7} = {E9866F95-15D3-4A3B-81BD-6EA26E74DA73}
+	EndGlobalSection
+EndGlobal
